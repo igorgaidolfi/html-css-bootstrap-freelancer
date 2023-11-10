@@ -6,11 +6,12 @@
 body{
     color: #fff;
 }
-header{
+.bg-grey{
     background-color: #2c3e50;
 }
 header .content,
-.portfolio .title{
+.portfolio .title,
+.about .title{
     height: 75px;
 }
 .bg-aqua{
@@ -49,5 +50,14 @@ header .content,
 .bg-beige,
 .bg-nero{
     height: 200px;
+}
+.about .testo{
+    height: 125px;
+}
+.dl-button{
+    height: 25px
+}
+.about .content{
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
