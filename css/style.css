@@ -9,7 +9,7 @@ body{
 .bg-grey{
     background-color: #2c3e50;
 }
-header .content,
+header .contentz,
 .portfolio .title,
 .about .title{
     height: 75px;
@@ -63,6 +63,12 @@ header .content,
 }
 .contact .content{
     background-color: rgba(0, 0, 0, 0.5);
+}
+.top{
+    background-color: #3a546d;
+}
+.content{
+    text-align: center;
 }
 
 
