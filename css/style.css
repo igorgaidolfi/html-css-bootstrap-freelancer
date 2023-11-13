@@ -20,6 +20,41 @@ ul{
 header li{
     padding: 0px 10px ;
 }
+/* DECORATION LINE STAR LINE */
+h1{
+    margin: 100px auto;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    max-width: 600px;
+    position: relative;
+  }
+  h1:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #CD5C5C;
+    left: 85px;
+    top: 50%;
+    position: absolute;
+  }
+  h1:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #CD5C5C;
+    right: 85px;
+    top: 50%;
+    position: absolute;
+  }
+.jumbotron img{
+    height: 200px;
+}
+.jumbotron li{
+    padding: 0px 2px;
+}
 .portfolio .title,
 .about .title{
     height: 75px;
@@ -27,13 +62,8 @@ header li{
 .bg-aqua{
     background-color: #1abc9c;
 }
-.jumbotron,
 .contact .content{
     height: 300px;
-}
-.jumbotron .content{
-    height: 250px;
-    background-color: rgba(255, 255, 255, 0.5);
 }
 .portfolio .title{
     background-color: rgba(0, 0, 0, 0.5);
