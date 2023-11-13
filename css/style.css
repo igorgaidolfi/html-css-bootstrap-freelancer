@@ -21,34 +21,35 @@ header li{
     padding: 0px 10px ;
 }
 /* DECORATION LINE STAR LINE */
-h1{
-    margin: 100px auto;
-    text-align: center;
-    color: black;
-    font-size: 40px;
-    max-width: 600px;
-    position: relative;
-  }
-  h1:before {
-    content: "";
-    display: block;
-    width: 150px;
-    height: 5px;
-    background: #CD5C5C;
-    left: 85px;
-    top: 50%;
-    position: absolute;
-  }
-  h1:after {
-    content: "";
-    display: block;
-    width: 150px;
-    height: 5px;
-    background: #CD5C5C;
-    right: 85px;
-    top: 50%;
-    position: absolute;
-  }
+    h1{
+        margin: 100px auto;
+        text-align: center;
+        color: black;
+        font-size: 40px;
+        max-width: 600px;
+        position: relative;
+    }
+    h1:before {
+        content: "";
+        display: block;
+        width: 150px;
+        height: 5px;
+        background: #CD5C5C;
+        left: 85px;
+        top: 50%;
+        position: absolute;
+    }
+    h1:after {
+        content: "";
+        display: block;
+        width: 150px;
+        height: 5px;
+        background: #CD5C5C;
+        right: 85px;
+        top: 50%;
+        position: absolute;
+    }
+/* DECORATION LINE STAR LINE */
 .jumbotron img{
     height: 200px;
 }
@@ -61,11 +62,11 @@ h1{
 .fa-download{
     padding-right: 5px;
 }
-.contact .content{
-    height: 300px;
+.btn-send{
+    background-color: #1abc9c;
 }
-.contact .content{
-    background-color: rgba(0, 0, 0, 0.5);
+.btn-send:hover{
+    background-color: #1abc9c;
 }
 .top{
     background-color: #3a546d;
