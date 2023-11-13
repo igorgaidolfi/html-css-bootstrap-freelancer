@@ -55,7 +55,6 @@ h1{
 .jumbotron li{
     padding: 0px 2px;
 }
-.portfolio .title,
 .about .title{
     height: 75px;
 }
@@ -65,33 +64,7 @@ h1{
 .contact .content{
     height: 300px;
 }
-.portfolio .title{
-    background-color: rgba(0, 0, 0, 0.5);
-}
 
-.bg-reddish{
-    background-color: #ba4b63;
-}
-.bg-turquoise{
-    background-color: #1ea4b6;
-}
-.bg-cyan{
-    background-color: #1c83c1;
-}
-.bg-blue{
-    background-color: #0e38b5;
-}
-.bg-beige{
-    background-color: #ccb2a3;
-}
-.bg-reddish,
-.bg-turquoise,
-.bg-cyan,
-.bg-blue,
-.bg-beige,
-.bg-nero{
-    height: 200px;
-}
 .about .testo{
     height: 125px;
 }
