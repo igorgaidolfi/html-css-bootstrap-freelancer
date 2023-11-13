@@ -55,24 +55,14 @@ h1{
 .jumbotron li{
     padding: 0px 2px;
 }
-.about .title{
-    height: 75px;
-}
 .bg-aqua{
     background-color: #1abc9c;
 }
+.fa-download{
+    padding-right: 5px;
+}
 .contact .content{
     height: 300px;
-}
-
-.about .testo{
-    height: 125px;
-}
-.dl-button{
-    height: 25px
-}
-.about .content{
-    background-color: rgba(255, 255, 255, 0.5);
 }
 .contact .content{
     background-color: rgba(0, 0, 0, 0.5);
@@ -80,8 +70,6 @@ h1{
 .top{
     background-color: #3a546d;
 }
-.content{
-    text-align: center;
-}
+
 
 
