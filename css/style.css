@@ -21,33 +21,38 @@ header li{
     padding: 0px 10px ;
 }
 /* DECORATION LINE STAR LINE */
-    h1{
-        margin: 100px auto;
+    .decoration{
+        margin: 0 auto;
         text-align: center;
-        color: black;
-        font-size: 40px;
+        font-size: 20px;
         max-width: 600px;
         position: relative;
     }
-    h1:before {
+    .decoration:before {
         content: "";
         display: block;
-        width: 150px;
-        height: 5px;
-        background: #CD5C5C;
-        left: 85px;
+        width: 100px;
+        height: 3px;
+        background: #fff;
+        left: 140px;
         top: 50%;
         position: absolute;
     }
-    h1:after {
+    .decoration:after {
         content: "";
         display: block;
-        width: 150px;
-        height: 5px;
-        background: #CD5C5C;
-        right: 85px;
+        width: 100px;
+        height: 3px;
+        background: #fff;
+        right: 140px;
         top: 50%;
         position: absolute;
+    }
+    .black-dec::after{
+        background: #000;
+    }
+    .black-dec::before{
+        background: #000;
     }
 /* DECORATION LINE STAR LINE */
 .jumbotron img{
@@ -68,8 +73,27 @@ header li{
 .btn-send:hover{
     background-color: #1abc9c;
 }
-.top{
+.top-footer{
     background-color: #3a546d;
+}
+.copyright{
+    font-size: xx-small;
+}
+.fsize-s{
+    font-size: small;
+}
+.font-aquamarine{
+    color: #1abc9c;
+}
+.border-social{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
 }
 
 
